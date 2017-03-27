@@ -7,7 +7,7 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim &&
 
 $(cd ~/.vim/bundle && \
   git clone https://github.com/wlangstroth/vim-racket.git && \
-  https://github.com/flazz/vim-colorschemes.git)
+  git clone https://github.com/flazz/vim-colorschemes.git)
 
 echo "execute pathogen#infect()" > ~/.vimrc
 echo "syntax enable" >> ~/.vimrc
